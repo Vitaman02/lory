@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "lory"
+version = "0.0.1"
+description = "An integration testing framework written in Python :)"
+authors = ["Vitaman02"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
